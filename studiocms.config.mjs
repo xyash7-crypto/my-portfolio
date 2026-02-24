@@ -3,6 +3,6 @@ import md from '@studiocms/md';
 import { defineStudioCMSConfig } from 'studiocms/config';
 
 export default defineStudioCMSConfig({
-	dbStartPage: true,
+	dbStartPage: false,
 	plugins: [md(), blog()],
 });

@@ -7,7 +7,7 @@
     "studiocms": "studiocms",
     "migrate": "studiocms migrate",
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "studiocms migrate && astro build",
     "preview": "astro preview"
   },
   "devDependencies": {
@@ -15,7 +15,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@astrojs/node": "^9.5.4",
+    "@astrojs/vercel": "^9.0.4",
     "@libsql/client": "^0.15.15",
     "@studiocms/blog": "^0.2.0",
     "@studiocms/md": "^0.2.0",
